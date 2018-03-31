@@ -1,6 +1,6 @@
 # to_query
 
-ActiveSupport to_query method for Crystal.
+ActiveSupport to_query method for Crystal. Fast implementation.
 
 ## Installation
 

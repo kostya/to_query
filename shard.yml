@@ -6,4 +6,8 @@ authors:
 
 crystal: 0.24.2
 
+development_dependencies:
+  crystal_on_steroids:
+    github: werner/crystal_on_steroids
+    
 license: MIT
