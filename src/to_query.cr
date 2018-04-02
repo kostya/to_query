@@ -45,9 +45,9 @@ struct NamedTuple
       value = self[{{key.symbolize}}]
       key = {{key.stringify}}
       value.to_query(io, namespace ? "#{namespace}[#{key}]" : key)
+      {% c = c + 1 %}
     {% end %}
 
-    {% c = c + 1 %}
     {% end %}
   end
 end

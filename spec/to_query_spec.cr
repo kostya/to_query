@@ -36,6 +36,10 @@ describe NamedTuple do
   it "work" do
     {data: "⬤"}.to_query.should eq "data=%E2%AC%A4"
   end
+
+  it "multiple keys" do
+    {data: "⬤", bla: 1}.to_query.should eq "data=%E2%AC%A4&bla=1"
+  end
 end
 
 describe "Hash of Hash" do
