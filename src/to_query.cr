@@ -1,8 +1,6 @@
 require "uri"
 
 class Object
-  VERSION = "0.1"
-
   def to_query
     String.build do |buf|
       to_query(buf)
