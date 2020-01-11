@@ -14,9 +14,9 @@ class Object
   end
 
   def to_query(io : IO, key)
-    URI.escape(key.to_s, io)
+    URI.encode_www_form(key.to_s, io)
     io << '='
-    URI.escape(to_s, io)
+    URI.encode_www_form(to_s, io)
   end
 end
 
