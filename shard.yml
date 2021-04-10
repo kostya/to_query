@@ -1,13 +1,9 @@
 name: to_query
-version: 0.3
+version: 0.4
 
 authors:
   - Konstantin Makarchev <kostya27@gmail.com>
 
-crystal: 0.24.2
+crystal: ">= 0.24.2"
 
-development_dependencies:
-  crystal_on_steroids:
-    github: werner/crystal_on_steroids
-    
 license: MIT
